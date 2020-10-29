@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         initPython();
 
         Python py = Python.getInstance();
-        PyObject pyobj = py.getModule("script.py");  // Enter name of python file to run
+        PyObject pyobj = py.getModule("script");  // Enter name of python file to run
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
